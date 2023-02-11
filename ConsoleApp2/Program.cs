@@ -96,5 +96,13 @@ class Program
 			Console.WriteLine(luku);
 		}
 		*/
+		Console.WriteLine("Tehtävä 7.2");
+		Console.Write("Anna luku 1 ja 10 väliltä: "); //kysytään käyttäjältä syötettä
+		int luku = int.Parse(Console.ReadLine()); //käyttäjä antaa syötteen
+		Console.WriteLine();
+		for(int i = 1; i <= 5; i++) //silmukka, jonka sisällä toistuu laskutoimitus
+		{
+			Console.WriteLine(i + " * " + luku + " = " + i * luku + "  " + i + " / " + luku + " = " + i / luku + "   " + i + " % " + luku + " = " + i % luku);
+		}
 	}
 }
